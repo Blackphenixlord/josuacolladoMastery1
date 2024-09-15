@@ -1,0 +1,81 @@
+/* Resetting default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: "Arial", sans-serif; /* Clean and easy-to-read font */
+  background-color: #e0f7fa; /* Light cyan background, reminiscent of beach and sea */
+  color: #333; /* Dark text for readability */
+}
+
+/* Header styles */
+header {
+  background-color: #0077cc; /* Bright blue, representing the sky and the volleyball theme */
+  color: white; /* White text for contrast against the blue */
+  padding: 20px 0; /* Increased padding for more space */
+  text-align: center;
+  border-bottom: 4px solid #005fa3; /* A darker shade of blue for a stylish border */
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-flex; /* Display links in a line */
+  margin: 0 10px; /* Space between links */
+}
+
+nav ul li a {
+  background-color: #0099ff; /* Bright button color */
+  color: white; /* White text for visibility */
+  text-decoration: none; /* No underline for a cleaner look */
+  font-weight: bold; /* Bold text for emphasis */
+  font-size: 1.2em; /* Larger font size for better visibility */
+  padding: 10px 20px; /* Padding around buttons to make them more clickable */
+  border-radius: 5px; /* Rounded corners for a modern look */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for navigation buttons */
+nav ul li a:hover {
+  background-color: #005fa3; /* Darker blue on hover for better visibility */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+/* Section headings */
+h2 {
+  color: #0077cc; /* Consistent blue for headings */
+  margin-bottom: 10px; /* Space below headings */
+}
+
+/* Paragraphs and lists */
+p {
+  line-height: 1.6; /* Improved readability with increased line height */
+}
+
+ul {
+  padding-left: 20px; /* Indent for better list presentation */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333; /* Dark footer for contrast */
+  color: white; /* White text for visibility */
+  border-top: 4px solid #0077cc; /* Blue border at the top of the footer */
+}
