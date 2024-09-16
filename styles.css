@@ -9,9 +9,13 @@ p {
 
 /* Body styles */
 body {
+  height: 100vh;
   font-family: "Arial", sans-serif; /* Clean and easy-to-read font */
   background-color: #e0f7fa; /* Light cyan background, reminiscent of beach and sea */
   color: #333; /* Dark text for readability */
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
 }
 
 /* Header styles */
@@ -73,6 +77,7 @@ ul {
 
 /* Footer styles */
 footer {
+
   text-align: center;
   padding: 10px 0;
   background-color: #333; /* Dark footer for contrast */
