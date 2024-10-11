@@ -7,6 +7,12 @@ let sentence3 = "This summer they plan on traveling to El Paso to visit as many 
 let num1 = sentence1.match(/\d+/g)[0]; // This finds the first number ("5")
 let num2 = sentence1.match(/\d+/g)[1]; // This finds the second number ("4")
 let num3 = sentence1.match(/\d+/g)[2]; // This finds the third number ("1")
+//\d+: This is a regular expression pattern.
+//The + means "one or more" of the preceding character, so \d+ matches one or more consecutive digits.
+///g: This is a "global" flag that makes the regex search for all occurrences, not just the first one.
+//The match() method is called on a string (sentence2 in your case).
+//This method returns an array of all substrings in the string that match the given regular expression.
+
 
 // 3. Finding numbers in the second sentence
 let num4 = sentence2.match(/\d+/g)[0]; // This finds the first number ("6")
