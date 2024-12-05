@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="sript/formValidation.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Volleyball & Bio-Mech Contact Page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Volleyball</a></li>
+                <li><a href="#">About Bio-Mech</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="feedback">Do you want to provide feedback?</label>
+        <select id="feedback" onchange="showGames()">
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+
+        <div id="games" style="display: none;">
+            <ul>
+                <li><input type="checkbox" id="VolleyballCheckbox" name="game" value="1.99">
+                    <label for="VolleyballCheckbox">Volleyball ($1.99)</label>
+                </li>
+                <li><input type="checkbox" id="BioMechCheckbox" name="game" value="2.99">
+                    <label for="BioMechCheckbox">Bio-Mech ($2.99)</label>
+                </li>
+            </ul>
+
+            <ul>
+                <li><input type="radio" id="VolleyballRadio" name="game" value="2.99">
+                    <label for="VolleyballRadio">Volleyball Premium ($2.99)</label>
+                </li>
+                <li><input type="radio" id="BioMechRadio" name="game" value="3.99">
+                    <label for="BioMechRadio">Bio-Mech Premium ($3.99)</label>
+                </li>
+            </ul>
+
+            <label for="leaveMessage">Do you want to leave a message?</label>
+            <select id="leaveMessage">
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <label for="message" id="messageLabel" style="display: none;">Message:</label>
+            <textarea id="message" name="message" rows="4" style="display: none;"></textarea>
+        </div>
+
+        <button type="submit" id="submitBtn">Submit</button>
+        <br>
+    </form>
+
+    <footer>
+        <p>&copy; 2024. Josue Collado. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
