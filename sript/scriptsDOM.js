@@ -1,8 +1,8 @@
-// Replace the first paragraph text
+// Replace first paragraph 
 document.querySelector(".intro").innerHTML =
   "Life is a journey full of moments to grow, learn, and overcome obstacles. Every step forward, no matter how small, is progress worth celebrating. Challenges are lessons in disguise, and with perseverance, anything is achievable. Believe in yourself and your ability to create change, and success will follow.";
 
-// Change the 3 images with the correct ones
+// Change 3 images  
 document.querySelector("#firstImage").src = "./Images/Lamborghini.jpg";
 document.querySelector("#secondImage").src = "./Images/VolleyballBeach.jpg";
 document.querySelector("#thirdImage").src = "./Images/Gamer.jpg";
