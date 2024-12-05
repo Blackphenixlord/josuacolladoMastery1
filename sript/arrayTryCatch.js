@@ -30,22 +30,22 @@ dayNames.shift();
 
 //
 try {
-  if (dayNames[0] == "Sunday") {
-    // If true then throw an error message
-    throw "Error: Sunday should be missing!";
-  }
+    if (dayNames[0] == "Sunday") {
+        // If true then throw an error message
+        throw "Error: Sunday should be missing!";
+    }
 } catch (error) {
-  console.log(error);
+    console.log(error);
 } finally {
-  // Finally block displaying a message with the variables made
-  console.log(
-    firstName +
-      " was born in the year " +
-      birthYear +
-      ". I think the day was either a " +
-      dayNames[2] +
-      " or " +
-      dayNames[1] + 
-      "."
-  );
+    // Finally block displaying a message with the variables made
+    console.log(
+        firstName +
+        " was born in the year " +
+        birthYear +
+        ". I think the day was either a " +
+        dayNames[2] +
+        " or " +
+        dayNames[1] +
+        "."
+    );
 }
