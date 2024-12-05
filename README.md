@@ -1,4 +1,4 @@
-# josuecolladoMastery3
+# josuecolladoMastery6
 
 This webpage features a clean, modern layout for a fictional business combining volleyball and biomechanics. The header contains a navigation menu with links to various sections like About, Products, and Events. The main content is divided into sections, each with relevant information, including a description of the sport, the company, and its products, followed by upcoming events.
 
