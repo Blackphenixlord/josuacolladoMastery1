@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../josuacolladoMastery1-m5/josuacolladoMastery1-m5"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "josuacolladoMastery1-m5"
+  }
+}
